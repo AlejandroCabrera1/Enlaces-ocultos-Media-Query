@@ -1,0 +1,43 @@
+body{
+         margin: 0px;
+      }
+      .navegacion li{
+         display: inline;
+         margin: 0.5% 0.5%;
+      }
+      .navegacion a{
+         text-decoration: none;
+         border: blue 2px solid;
+         padding: 1% 2%;
+         background-color: cyan;
+      }
+      .navegacion a:hover{
+         
+         background: indigo;
+         color: gray;
+         border-color: gray;
+      }
+      @media screen and (max-width: 1024px){
+         .div4{
+            display: none;
+         }
+      }
+      @media screen and (max-width: 768px){
+         .div4{
+            display: none;
+         }
+         .div3{
+            display: none;
+         }
+      }
+      @media screen and (max-width: 480px){
+         .div4{
+            display: none;
+         }
+         .div3{
+            display: none;
+         }
+         .div2{
+            display: none;
+         }
+      }
